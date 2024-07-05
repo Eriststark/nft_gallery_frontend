@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const contractAddress = "0xD7B368D30A17741C342BA8b7D41Ad4071BE9353A";
     const network = 80002;
     //details of each nft 
-    const nft_list = [
+    const nftList = [
     {id: 1, txhash: "0xede903fe74e369a3059a6a4a66be7d6ce74ccef6be75e94fb6732b54a255b383"},
     {id: 2, txhash: "0xc60d9e8056e07bb4eb72328f45fb52925e94763187fbccfdf50b9af37f5f93e1"},
     {id: 3, txhash: "0xe5d5886ab486556a168ae6f7aa3eedec76626264d43f308595abb780a6f4c38b"},
@@ -127,7 +127,7 @@ async function createNFTCard(uriData, metadata, txhash) {
     // Main execution logic
     try {
         const bodies = [];
-        for (let nft of nft_list) {
+        for (let nft of nftList) {
             let id = nft["id"];
             
             bodies.push({
@@ -139,7 +139,7 @@ async function createNFTCard(uriData, metadata, txhash) {
 
         // Sequentially process each NFT
         for (const body of bodies) {
-            const nft = nft_list[item++];
+            const nft = nftList[item++];
             const txhash = nft["txhash"];
             const metadata = await fetchMetadata(body);
             const uriData = await fetchURI(metadata.uri);
