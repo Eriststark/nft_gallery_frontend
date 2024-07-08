@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const apiEndpoint = 'https://api.vottun.tech/erc/v1/erc721/tokenUri';
     let item = 0; // Keep track of the current txhash index
     //replace the below variables with your own data
-    const apiKey = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyaW5xaHBKOW82ekZheDd2ZDRNVXpsQkJWWWMiLCJ0eXBlIjoiZXJwIiwiaWQiOiIiLCJ1c2VybmFtZSI6ImVkdG0xMEBnbWFpbC5jb20iLCJjaWQiOiJkZWFkNzlmNi1hYjAzLTQ3ODItOGZmZC1hZjZjMjE4NjEyODAiLCJza3UiOlt7InIiOjExLCJzIjo4LCJlIjowfSx7InIiOjExLCJzIjo4MDAxLCJlIjowfSx7InIiOjExLCJzIjo4MDAyLCJlIjowfSx7InIiOjExLCJzIjo4MDAzLCJlIjowfSx7InIiOjExLCJzIjo4MDA1LCJlIjowfSx7InIiOjExLCJzIjo4MDEwLCJlIjowfSx7InIiOjExLCJzIjozLCJlIjowfV0sInB1YyI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCJ9.KvauYeZZgejHLws9cDHvign7ISmeN0ig9Th32gUfbYeWYHvQBsYNVAFPGg_9Q5QUOwd0eYzqg9zJAvt2wNtrh99jhE75K0DssBdGzN2XwvNhttM3LBLlnugPq2LnXXFKMv0OeuYzSPphRPsTjTmRNr1SXd148LcHdDo7vFP4SmMcRM0JClfKkSUabNwSsaksxWVP_KT9ztoQ8zb6qSgSyHjNfhLSRiIDxut9AhJNRdrBntNJ_II4BzG3cRVH3wwQs-EN0wKBgrNvRc6dm6XKTDEa-9u1XOUU_uvZ3irohM6u1Ff81jI4nzulLOykdpM0kPQuRZIoo5zVBWspjL9QOWi136seN6eT_tYrXXOzp_vr5ooaOBqLxMHHgbv-5x5X5mCpS0IvpSUvk0b3m-ILfqqync-YE7CUskUSNgbjvvs6ngwTynCLgc4PLRQF0RkUlucj4wcqW04UCaKFwkZdv1l2ZAO_7DPIQH8GWk3rEzWquxTXDnFNKszP82ATJPnutCOvTLRv70NFyvb0xF2yqOl94ZJLNrzYmVj1gyDPvgJpx4OceAlVvjuj0R94FzdmYX9-oVtudme2SHMJvgyOiAXx8MvT3_e-ADkUYpMyStN_81TOBXivOZT2JP3_uMkmf-WlcSBj5jKEIuMI51nYXzp-8LaeMOHbokby1UA27Mo';
-    const appId = '1k21orZXUK92MTql4kPB1cUfHW_y_wtBSVn7y260PCCG4vRQ8NZEkYfGCqkUk3TV';
+    const apiKey = '<YOUR_API_KEY>';
+    const appId = '<YOUR_APP_ID>';
     const contractAddress = "0xD7B368D30A17741C342BA8b7D41Ad4071BE9353A";
     const network = 80002;
     //details of each nft 
